@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="rotten_tomatoes_cli",
+    name="rotten_tomatoes_cli_fork",
     description="Rotten Tomatoes Command Line Tool",
     long_description=long_description,
     long_description_content_type="text/markdown",
