@@ -16,10 +16,10 @@ setup(
     include_package_data=True,
     python_requires=">=3.4",
     install_requires=[
-        "Click==6.7",
+        "Click>=6.7",
         "rotten_tomatoes_client==0.0.3",
-        "terminaltables==3.1.0",
-        "termcolor==1.1.0"
+        "terminaltables>=3.1.0",
+        "termcolor>=1.1.0"
     ],
     entry_points={
         "console_scripts": [
