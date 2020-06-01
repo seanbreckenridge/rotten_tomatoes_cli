@@ -1,6 +1,8 @@
 # Rotten Tomatoes CLI
 
-Forked from [jaebradley/rotten_tomatoes_cli](https://github.com/jaebradley/rotten_tomatoes_cli)
+Forked from [jaebradley/rotten_tomatoes_cli](https://github.com/jaebradley/rotten_tomatoes_cli). Its a great piece of software but it's too restrictive/attempts to be backward compatible, which messes up upgrading global python dependencies.
+
+This changes the allowed dependency version so that latest versions of `Click` can be installed, and doesn't install `enum34` so that it doesn't break other packages that depend on the newer version of the `enum` stdlib.
 
 [![Build Status](https://travis-ci.org/jaebradley/rotten_tomatoes_cli.svg?branch=master)](https://travis-ci.org/jaebradley/rotten_tomatoes_cli)
 [![PyPI version](https://badge.fury.io/py/rotten_tomatoes_cli.svg)](https://badge.fury.io/py/rotten_tomatoes_cli)

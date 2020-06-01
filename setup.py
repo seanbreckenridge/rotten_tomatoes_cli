@@ -17,7 +17,7 @@ setup(
     python_requires=">=3.4",
     install_requires=[
         "Click>=6.7",
-        "rotten_tomatoes_client==0.0.3",
+        "rotten_tomatoes_client @ git+https://gitlab.com/seanbreckenridge/rotten_tomatoes_client@master#egg=rotten_tomatoes_client",
         "terminaltables>=3.1.0",
         "termcolor>=1.1.0"
     ],
